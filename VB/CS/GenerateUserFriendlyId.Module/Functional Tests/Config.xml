@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Options xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" TestRunTimeLimit="3" >
+	<Applications>
+		<!-- Win -->
+		<Application
+			Name="GenerateUserFriendlyIdWin"
+			FileName="[WinAppBin]\GenerateUserFriendlyId.Win.exe"
+			AdapterAssemblyName="[WinAdapterAssemblyName]"
+			CommunicationPort="4100"/>
+		<!-- Web -->
+		<Application
+			Name="GenerateUserFriendlyIdWeb"
+			Url="http://localhost:4030"
+			PhysicalPath="[WebAppBin]"
+			AdapterAssemblyName="[WebAdapterAssemblyName]"/>
+		<!-- For IIS -->
+		<!--Application
+			Name="[SolutionName]Web"
+			Url="http://localhost/GenerateUserFriendlyId.Web/Default.aspx"
+			AdapterAssemblyName="[WebAdapterAssemblyName]"/-->
+	</Applications>
+	<TestDatabases>
+		<Database xsi:type="TestMSSQLDatabase" Server="(local)" DBName="GenerateUserFriendlyIdEasyTest" />
+	</TestDatabases>
+
+	<Aliases>
+		<Alias Name="WinAdapterAssemblyName" Value="DevExpress.ExpressApp.EasyTest.WinAdapter.v10.2, Version=10.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+		<Alias Name="WebAdapterAssemblyName" Value="DevExpress.ExpressApp.EasyTest.WebAdapter.v10.2, Version=10.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+		<Alias Name="WinAppBin" Value="D:\Daily Work\GenerateUserFriendlyId\GenerateUserFriendlyId.Win\Bin\EasyTest" />
+		<Alias Name="WebAppBin" Value="D:\Support\Examples\E2829\GenerateUserFriendlyId.Web" />
+	</Aliases>
+</Options>
+
