@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [PersistentObjects.cs](./CS/GenerateUserFriendlyId.Module/BO/PersistentObjects.cs) (VB: [PersistentObjects.vb](./VB/GenerateUserFriendlyId.Module/BO/PersistentObjects.vb))
+* [ImportDataListViewController.cs](./CS/GenerateUserFriendlyId.Module/Controllers/ImportDataListViewController.cs) (VB: [ImportDataListViewController.vb](./VB/GenerateUserFriendlyId.Module/Controllers/ImportDataListViewController.vb))
+* [SequenceGenerator.cs](./CS/GenerateUserFriendlyId.Module/Utils/SequenceGenerator.cs) (VB: [SequenceGenerator.vb](./VB/GenerateUserFriendlyId.Module/Utils/SequenceGenerator.vb))
+<!-- default file list end -->
 # How to generate a sequential number for a persistent object within a database transaction (XAF)
 
 
