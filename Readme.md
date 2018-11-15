@@ -1,3 +1,14 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Test.ets](./CS/GenerateUserFriendlyId.EasyTests/Test.ets) (VB: [Test.ets](./VB/GenerateUserFriendlyId.EasyTests/Test.ets))
+* [DomainComponents.cs](./CS/GenerateUserFriendlyId.Module/BO/DomainComponents.cs)
+* [PersistentObjects.cs](./CS/GenerateUserFriendlyId.Module/BO/PersistentObjects.cs)
+* [TestListViewController.cs](./CS/GenerateUserFriendlyId.Module/Controllers/TestListViewController.cs) (VB: [TestListViewController.vb](./VB/GenerateUserFriendlyId.Module/Controllers/TestListViewController.vb))
+* [Module.cs](./CS/GenerateUserFriendlyId.Module/Module.cs)
+* [Updater.cs](./CS/GenerateUserFriendlyId.Module/Updater.cs)
+* [SequenceGenerator.cs](./CS/GenerateUserFriendlyId.Module/Utils/SequenceGenerator.cs)
+<!-- default file list end -->
 # How to generate a sequential number for a persistent object within a database transaction (XAF)
 
 
