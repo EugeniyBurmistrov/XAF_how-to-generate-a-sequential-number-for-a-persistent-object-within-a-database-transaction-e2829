@@ -1,3 +1,13 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Test.ets](./CS/GenerateUserFriendlyId.EasyTests/Test.ets) (VB: [Test.ets](./VB/GenerateUserFriendlyId.EasyTests/Test.ets))
+* [DomainComponents.cs](./CS/GenerateUserFriendlyId.Module/BO/DomainComponents.cs) (VB: [DomainComponents.vb](./VB/GenerateUserFriendlyId.Module/BO/DomainComponents.vb))
+* [PersistentObjects.cs](./CS/GenerateUserFriendlyId.Module/BO/PersistentObjects.cs) (VB: [PersistentObjects.vb](./VB/GenerateUserFriendlyId.Module/BO/PersistentObjects.vb))
+* [Module.cs](./CS/GenerateUserFriendlyId.Module/Module.cs) (VB: [Module.vb](./VB/GenerateUserFriendlyId.Module/Module.vb))
+* [Updater.cs](./CS/GenerateUserFriendlyId.Module/Updater.cs) (VB: [Updater.vb](./VB/GenerateUserFriendlyId.Module/Updater.vb))
+* [SequenceGenerator.cs](./CS/GenerateUserFriendlyId.Module/Utils/SequenceGenerator.cs) (VB: [SequenceGenerator.vb](./VB/GenerateUserFriendlyId.Module/Utils/SequenceGenerator.vb))
+<!-- default file list end -->
 # How to generate a sequential number for a persistent object within a database transaction (XAF)
 
 
